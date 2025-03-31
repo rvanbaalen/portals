@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/rvanbaalen/portals.git"
   },
+  "engines": {
+    "node": ">=22"
+  },
   "bugs": {
     "url": "https://github.com/rvanbaalen/portals/issues"
   },
@@ -23,6 +26,12 @@
     "popover"
   ],
   "main": "index.js",
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
