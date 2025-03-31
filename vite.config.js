@@ -3,7 +3,7 @@ import tailwindcss from "@tailwindcss/vite"
 import { defineConfig } from "vite"
 
 export default defineConfig({
-  base: "/package-name/", // Change this if your page is not hosted at a root URL
+  base: "/portals/", // Change this if your page is not hosted at a root URL
   plugins: [
     tailwindcss(),
   ],
