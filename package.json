@@ -36,12 +36,18 @@
     "index.js"
   ],
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@rvanbaalen/eslint-config": "^1.2.0",
-    "@rvanbaalen/signals": "^1.0.0",
-    "eslint": "^9.23.0"
+    "@rvanbaalen/eslint-config": "^1.0.2",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.0.9",
+    "eslint": "^9.22.0",
+    "tailwindcss": "^4.0.9",
+    "vite": "^6.2.0"
   }
 }
