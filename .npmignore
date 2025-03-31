@@ -1,0 +1,21 @@
+# Source control
+.git
+.gitignore
+
+# Tests
+__tests__/
+test/
+*.test.js
+*.spec.js
+
+# Configuration files
+.editorconfig
+.eslintrc
+.babelrc
+
+# Development files
+node_modules/
+.vscode/
+.idea/
+.DS_Store
+*.log

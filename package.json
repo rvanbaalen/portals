@@ -1,47 +1,35 @@
 {
-  "name": "@rvanbaalen/package-name",
-  "version": "0.0.0",
+  "name": "@rvanbaalen/portals",
   "type": "module",
-  "description": "Package description.",
+  "version": "0.0.0",
+  "description": "A reusable system for rendering content above the normal DOM flow",
+  "author": "Robin van Baalen",
+  "license": "MIT",
+  "homepage": "https://github.com/rvanbaalen/portals#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvanbaalen/portals.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rvanbaalen/portals/issues"
+  },
+  "keywords": [
+    "portal",
+    "DOM",
+    "overlay",
+    "modal",
+    "tooltip",
+    "dropdown",
+    "popover"
+  ],
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "engines": {
-    "node": ">=22"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://github.com/rvanbaalen/package-name.git"
-  },
-  "keywords": [
-    "javascript"
-  ],
-  "author": "Robin van Baalen",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rvanbaalen/package-name/issues"
-  },
-  "homepage": "https://robinvanbaalen.nl/package-name",
-  "files": [
-    "index.js",
-    "CHANGELOG.md",
-    "README.md",
-    "LICENSE"
-  ],
-  "devDependencies": {
-    "@rvanbaalen/eslint-config": "^1.0.2",
-    "@tailwindcss/typography": "^0.5.16",
-    "@tailwindcss/vite": "^4.0.9",
-    "eslint": "^9.22.0",
-    "tailwindcss": "^4.0.9",
-    "vite": "^6.2.0"
+  "dependencies": {
+    "@rvanbaalen/eslint-config": "^1.2.0",
+    "@rvanbaalen/signals": "^1.0.0",
+    "eslint": "^9.23.0"
   }
 }
