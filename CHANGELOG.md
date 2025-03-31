@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/rvanbaalen/portals/compare/portals-v1.0.1...portals-v1.0.2) (2025-03-31)
+
+
+### Bug Fixes
+
+* make the package public ([87e9e4a](https://github.com/rvanbaalen/portals/commit/87e9e4a053f191463579750b003d65befbd0554a))
+
 ## [1.0.1](https://github.com/rvanbaalen/portals/compare/portals-v1.0.0...portals-v1.0.1) (2025-03-31)
 
 
