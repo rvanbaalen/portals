@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/rvanbaalen/portals/compare/portals-v1.0.3...portals-v1.0.4) (2025-03-31)
+
+
+### Bug Fixes
+
+* vite config base path ([f065fd0](https://github.com/rvanbaalen/portals/commit/f065fd018e535659959debd11c6ef64f57d9213a))
+
 ## [1.0.3](https://github.com/rvanbaalen/portals/compare/portals-v1.0.2...portals-v1.0.3) (2025-03-31)
 
 
