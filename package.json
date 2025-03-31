@@ -1,7 +1,7 @@
 {
   "name": "@rvanbaalen/portals",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A reusable system for rendering content above the normal DOM flow",
   "author": "Robin van Baalen",
   "license": "MIT",
